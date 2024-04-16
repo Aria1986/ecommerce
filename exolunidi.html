@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="exolundi.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="topbar">
+    <span>
+        <i class="fa-solid fa-phone"></i>
+        <p>+001234567890</p>
+    </span>
+    <span>
+        <a href="#">Get 50% off on Select Item</a> |
+        <a href="#">Shop now</a>
+    </span>
+
+    <span id="langue">
+        <p>en</p>
+        <i class="fa-solid fa-chevron-down"></i>
+    </span> 
+</div>
+<div id="menu">
+    <img src="./img/shopcart.svg" alt="shopcart">
+    <p>Categorie</p>
+    <i class="fa-solid fa-chevron-down"></i>
+    <a href="#">What's New</a> 
+    <a href="#">Delivery</a>
+    <span id="search">
+        <input type="text" placeholder="Search..">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </span>
+    <a href=#>
+        <i class="fa-regular fa-user"></i>
+        Account
+    </a>
+    <a href=#>
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        Cart
+    </a>
+</div>
+<div id="promoBanner">
+    <p>Grab up to 50% off on selected Headphone</p>
+    <button>By Now</button>
+    <img src="./img/teteecasque.jpg" alt="tete avec un casque audio">
+</div> 
+<!-- les filtres -->
+<div id="filters">
+    <select id="Price" class="select">
+        <option value="">Price</option>
+          <option value="price1">Price1</option>
+          <option value="price2">Price2</option>
+          <option value="price3">Price3</option>
+    </select>
+    <select id="review" class="select">
+        <option value="">Review</option>
+          <option value="review1">Review1</option>
+          <option value="review2">Review2</option>
+          <option value="review3">Review3</option>
+    </select>
+    <select id="color" class="select">
+        <option value="">Color</option>
+          <option value="color1">Color1</option>
+          <option value="color2">Color2</option>
+          <option value="color3">Color3</option>
+    </select>
+    <select id="offer" class="select">
+        <option value="">Offer</option>
+          <option value="offer1">Offer1</option>
+          <option value="offer2">Offer2</option>
+          <option value="offer3">Offer3</option>
+    </select>
+
+    <select id="sortby" class="select">
+        <option value="">Sort by</option>
+          <option value="offer1">Offer1</option>
+          <option value="offer2">Offer2</option>
+          <option value="offer3">Offer3</option>
+    </select>
+</div>
+
+<!-- les produits -->
+<h2>Top products</h2>
+<div id="productContainer">  
+    <div class="card">
+        <img class="img_card" src="./img/img_card1.jpg" alt="ecouteurs">
+        <span class="favorite"> 
+            <i class="fa-regular fa-heart"></i>
+        </span>
+        <!-- textes bas de carte -->
+        <div class="card_text">
+            <div class="card_title">
+                <p >Bose BT Earphones</p>
+                <span class="card_price">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <p>35</p>
+                </span>
+            </div>
+            <span class="card_reviews">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>(121)</p>
+            </span>           
+            <p class="card__description">Table with air purifier, stained
+            <button class="btn2">Add to Cart</button>   
+         </div> 
+    </div>
+
+    <div class="card">
+        <img class="img_card" src="./img/img_card1.jpg" alt="ecouteurs">
+        <span class="favorite"> 
+            <i class="fa-regular fa-heart"></i>
+        </span>
+        <!-- textes bas de carte -->
+        <div class="card_text">
+            <div class="card_title">
+                <p >Bose BT Earphones</p>
+                <span class="card_price">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <p>35</p>
+                </span>
+            </div>
+            <span class="card_reviews">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>(121)</p>
+            </span>           
+            <p class="card__description">Table with air purifier, stained
+            <button class="btn2">Add to Cart</button>   
+         </div> 
+    </div>
+
+<div class="card">
+    <img class="img_card" src="./img/img_card1.jpg" alt="ecouteurs">
+    <span class="favorite"> 
+        <i class="fa-regular fa-heart"></i>
+    </span>
+    <!-- textes bas de carte -->
+    <div class="card_text">
+        <div class="card_title">
+            <p >Bose BT Earphones</p>
+            <span class="card_price">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <p>35</p>
+            </span>
+        </div>
+        <span class="card_reviews">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>(121)</p>
+        </span>           
+        <p class="card__description">Table with air purifier, stained
+        <button class="btn2">Add to Cart</button>   
+     </div> 
+</div>
+
+<div class="card">
+    <img class="img_card" src="./img/img_card1.jpg" alt="ecouteurs">
+    <span class="favorite"> 
+        <i class="fa-regular fa-heart"></i>
+    </span>
+    <!-- textes bas de carte -->
+    <div class="card_text">
+        <div class="card_title">
+            <p >Bose BT Earphones</p>
+            <span class="card_price">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <p>35</p>
+            </span>
+        </div>
+        <span class="card_reviews">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>(121)</p>
+        </span>           
+        <p class="card__description">Table with air purifier, stained
+        <button class="btn2">Add to Cart</button>   
+     </div> 
+</div>
+
+<!-- les produits populaires -->
+<h2>Popular products this week</h2>
+</body>
+</html>
